@@ -8,9 +8,9 @@ self.addEventListener('install', function (event) {
         // cache.add('app.js');
         cache.addAll([
           '/',
-          'index.html',
-          'app.js',
-          'app.css',
+          '/index.html',
+          '/app.js',
+          '/app.css',
           '/pwa.jpg',
           'https://fonts.googleapis.com/css?family=Raleway:400,700'
         ]);
